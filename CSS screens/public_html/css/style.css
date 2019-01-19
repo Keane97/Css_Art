@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Jan-2019, 10:18:51
+    Author     : k00215488
+*/
+body{
+        padding:0;
+        margin:0;
+        background:#2980b9;
+    }
+    .middle{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        height:40px;
+        display:flex;
+        align-items:center
+    }
+    .bar{
+        width:15px;
+        height:100px;
+        background:#fff;
+        margin:0 9px;
+        border-radius:15px;
+        animation:loading .8s infinite;
+    }
+        .bar1 {
+            animation-delay: .1s;
+        }
+        .bar2{
+            animation-delay: .2s;
+        }
+        .bar3{
+            animation-delay: .3s;
+        }
+        .bar4{
+            animation-delay: .4s;
+        }
+        .bar5{
+            animation-delay: .5s;
+        }
+        .bar6{
+            animation-delay: .6s;
+        }
+        .bar7{
+            animation-delay: .7s;
+        }
+    @keyframes loading{
+        0%{
+            height:0;
+        }
+        50%{
+            height:100px;
+        }
+        100%{
+            height:0;
+        }
+    }
